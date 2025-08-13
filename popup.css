@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: transparent;
+}
+
+#lightswitch-img {
+    /* Display the 120px image at 60px for sharpness */
+    width: 60px;
+    height: 100px; /* This maintains the aspect ratio */
+    cursor: pointer;
+    display: block; /* Prevents extra space below the image */
+}

@@ -1,0 +1,10 @@
+/* A simple, forceful dark mode using filters */
+html {
+    filter: invert(1) hue-rotate(180deg);
+    background-color: #111; /* Ensures bg is dark even if page is slow to load */
+}
+
+/* Fix for images and videos that also get inverted */
+img, video, iframe, .icon {
+    filter: invert(1) hue-rotate(180deg);
+}
